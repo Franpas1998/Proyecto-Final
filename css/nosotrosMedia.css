@@ -1,0 +1,80 @@
+@media screen and (max-width:480px){ 
+    .navbar{
+        position: relative;
+    }
+
+    .navbar .menu-bar{
+        display: block;
+        grid-column:7/8 ;
+        font-size: 30px;
+        cursor: pointer;
+    }
+    .navbar .titulo-inicio{
+        text-align: center;
+        grid-column: 2/6;
+        font-size: 35px;
+    }
+    .navbar .menu{
+        display: none;
+    }
+
+    /*main*/
+    .principal{
+        height: 80vh; 
+        background-color:#d6c988;
+        max-width: 100%;
+        display: grid;
+        grid-template-columns:repeat(10,1fr);
+        grid-template-rows:repeat(8,1fr); 
+    }
+    .principal h2{
+        font-size: 35px;
+        font-weight: 700;
+        text-transform: uppercase;
+        grid-column:4/8;
+        grid-row: 2/3;
+        text-align: center;
+    }
+    .principal p{ 
+        font-weight: 200;
+        font-size: 15px;
+        grid-column:4/8;
+        grid-row: 6/8;
+        text-align: center;
+    }
+    
+    .principal h3{
+        font-weight: 400;
+        font-size: 20px;
+        grid-column:4/8;
+        grid-row:8/10;
+        justify-content: center;
+        text-align: center;
+        
+    }
+    
+    .principal img{ 
+        grid-column: 4/8;
+        grid-row: 3/8;
+        width: 350px;
+        height: 225px;
+        border-radius: 40px;
+        border: solid 1px #000;
+        align-content: center;
+    }
+    
+
+
+    .footer{
+        height: 110px;
+    }
+
+    .footer .seguime{
+        display: none;
+    }
+
+    .footer .desarrolador{
+        font-size: 15px;
+        font-weight: 900;
+    }
+}

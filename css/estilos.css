@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul li{
+    color: black;
+    font-size: 25px;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.contacto{ text-align: center;
+    background-color:antiquewhite;
+    border: solid;
+
+}
+
+p{
+    font-family: sans-serif;
+    font-size: 15px;
+}
+#encabezados{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 5rem;
+    color:aliceblue;
+    text-align: none;
+    background-color: peru;
+    padding:2.5rem;
+    
+}
+
+#inicio{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    color: black;
+    
+    background-color:;
+    margin:0rem;
+    padding: 1rem;
+}
+
+#navegador{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    background-color:;
+    text-align: center;
+    color: black;
+    padding: 1rem; }
+
+    #footer{
+    background-color: peru;
+    margin: auto;
+    padding: 1.5rem;
+}
+.bordesfoto{
+    background-color:;
+    text-align: center;
+    border-radius: 20px;
+}
+
+h2{    
+    font-family:sans-serif;
+    font-size: 30px;
+    color: black;
+    background-color:;
+    margin:0cm;
+    padding: 2cm;} 
+
+
+.titulo{
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    background-color: antiquewhite !important;
+    }
+
+.textosobremi{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0rem;
+    padding: 2rem;
+    text-align: center;
+    font-size: 20px;
+}
+.titulo__imagen{
+    border-radius: 200px;
+    background-color: antiquewhite;
+}
+.titulo__texto{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    background-color: antiquewhite;
+    line-height: 30px;}
+    
+
+    .titulo__imagen--texto{
+        background-color: antiquewhite;
+
+    }
+.section{background-color: ;}
+
+.bordesredondeados{
+    border-radius: 20px;
+}
+
+a{text-decoration: none;}
+
+.fotos-obra{border-radius: 20px;}
+
+.primer-trabajo{
+    background-color: peru;
+    text-align: center;
+}
+
+.segundo-trabajo{
+    background-color: antiquewhite;
+    text-align: center;
+}
+
+
+
+.titulo-caja{
+    font-family:sans-serif;
+    text-align: center;
+    font-size: 25px;
+    background-color: antiquewhite;
+    padding: 2rem;
+}
+
+.descripccion{
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    padding:2rem;
+
+}
+.tabla{text-align: center;} 
+
+.contacto__1{
+
+    font-size: 20px;
+
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    padding: 1rem;
+}
+.title__important{font-size: 30px;
+background-color:#f7e9ba;
+font-family: 'Roboto', sans-serif;}
+
+td{font-size: 25px;
+    background-color: #f7f6da ;
+    font-family: 'Roboto', sans-serif;}
+
+
+.contenedor{ 
+    display: flex;
+    margin: auto;
+    
+    width: 1000px;
+    height: px;
+    background-position: center;
+    flex-wrap: wrap;
+
+}
+
+
+.item{
+    background-color: ;
+    height: 0px;
+    width: 200px;
+}
+.item1{background-color: ;
+    height: 200px;
+    width: 200px;
+}
+
+.item2{ background-color: ;
+    height: 200px;
+    width: 200px;
+}
+.item3{ background-color: ;
+    height: 200px;
+    width: 200px;
+}
+
+.item4{ background-color:;   
+    height: 200px;
+    width: 200px;
+}
+
+
+body{
+    background-position: 100%;
+    background-image:url(../assets/imagenes/fondo\ ahora\ si.webp)}

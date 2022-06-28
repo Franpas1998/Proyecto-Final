@@ -1,0 +1,62 @@
+@media screen and (max-width:480px){ 
+    .navbar{
+        position: relative;
+    }
+
+    .navbar .menu-bar{
+        display: block;
+        grid-column:7/8 ;
+        font-size: 30px;
+        cursor: pointer;
+    }
+    .navbar .titulo-inicio{
+        text-align: center;
+        grid-column: 2/6;
+        font-size: 35px;
+    }
+    .navbar .menu{
+        display: none;
+    }
+
+    /*main*/
+    
+    .principal h2{
+        font-size: 20px;
+    }
+    
+    .principal p{
+        font-size: 15px;
+        display: grid;
+        grid-column: 2/6;
+    }
+
+    .principal.contenido{
+        grid-row:2/4; 
+    
+    }
+
+    .principal .boton{
+        font-size: 10px;
+        font-weight: 900;
+        padding: 5px 10px;
+        background-color: #000;
+        border: solid 1px #fffffff1;
+        border-radius: 15px ;
+        margin-top: 30px ;
+        cursor: pointer;
+    }
+
+
+    .footer{
+        height: 110px;
+    }
+
+    .footer .seguime{
+        display: none;
+    }
+
+    .footer .desarrolador{
+        font-size: 15px;
+        font-weight: 900;
+    }
+}
